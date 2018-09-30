@@ -1,0 +1,14 @@
+#mainArticleBox {
+    border: 2px solid;
+}
+img {
+    border-radius: 33%;
+    padding-bottom: 8px;
+}
+#test {
+  border-radius: 20%;
+  /* background-color: blue; */
+}
+#navbar {
+  background-color: orange;
+}
