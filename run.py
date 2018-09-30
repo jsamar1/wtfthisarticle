@@ -8,6 +8,7 @@ from main import getInitJSON
 
 @app.route("/")
 def someJSON():
+    render_template('index.html')
     url = request.args.get('url')
     getInitJSON(url)
     return jsonify('modules/json/init.json')
